@@ -1,0 +1,34 @@
+
+body{ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: .95em;
+}
+
+h3 {
+    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.headings {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3em;
+    font-weight: bold;}
+
+table, th, td {border: 1px solid silver; 
+    border-collapse: collapse;
+    background-color: ghostwhite;} /* had rgb(237, 253, 248) */
+td {width: 150px;}
+
+
+.name {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 1.3em; font-weight: bold; font-style:italic;}
+.personal {font-size: .92em; font-style: italic; }
+.strengths {font-size: .85em; font-style: italic; }
+
+
+.employername{font-size: 1.15em; font-weight: bold; font-style: italic; color: rgb(17, 116, 116)} 
+
+.employtitle{font-size: 1.0em; font-weight: bold; color: rgb(25, 77, 78)} /*had rgb(38, 107, 109)*/
+.employdates{font-size: 1.0em; font-style:italic;}
+
+
+
+
