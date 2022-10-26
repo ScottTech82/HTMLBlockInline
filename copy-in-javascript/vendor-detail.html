@@ -6,12 +6,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
     crossorigin="anonymous">
+    <script src="js/utility.service.js"></script>
+    <script src="js/vendor.service.js"></script>
     <script src="js/vendor-detail.js"></script>
 </head>
 <body>
     <div>
-        <input id="vpk" type="number" value=1>
-        <button class="btn btn-success" onclick="display()">Get Vendor</button>
+        <span class="fw-bold">Vendor Detail</span> | 
+        <a href="vendor-list.html">Back to List</a>
+        <hr>
     </div>
     <table class="table table-sm table-striped table-bordered">
         <tr>
@@ -39,6 +42,6 @@
             <td id="vemail"></td>
         </tr>
     </table>
-    
+    <button class="btn btn-danger" onclick="remove()">Delete</button>
 </body>
 </html>
